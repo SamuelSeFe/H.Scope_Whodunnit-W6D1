@@ -1,0 +1,38 @@
+Episode 1 verdict is going to be .....
+
+Episode 1:
+Verdict is going to be Miss Scarlet as nothing is trying to mutate the objet scenario
+
+
+Episode 2: 
+Verdict is going to be Professor Plum as the "murderer" is a const variable and therefore cannot be changed
+
+
+Episode 3: 
+
+First verdict is going to be Mrs. Peacock as the variable "murderer" is a 'let' variable which can be changed once the function declareMurderer is passed.
+
+Second verdict is going to be Professor Plum as there is no function being called which would allow the 'let murderer' variable to be changed like in the first verdict
+
+
+Episode 4:
+
+Suspects are Miss Scarlet, Professor Plum, Colonel Mustard as suspectThree is a 'let variable' which changes when the function declareAllSuspects is passed and stored within suspects. So when suspects is printed the function is called which changed suspectThree.
+
+Suspect Three is going to be Mrs. Peacock as the console.log does not call upon any function to change the original value of suspectThree, therefore Mrs. Peacock remains suspectThree
+
+
+Episode 5:
+Weapon is going to be Revolver as scenario is an object in which the value of each key can be changed. So when the function changeWeapon is passed with the argument 'Revolver', it changes the key:vaue pair of weapon to "Revolver"
+
+
+Episode 6:
+Verdict is going to be Mrs. White becuase "murderer" is a global variable and when changeMurdere function is called then plotTwist,being the last part of the function, will execute and change the murderer to Mrs. White
+
+Episode 7:
+Verdict is going to be Mr. Green because the plotTwist 
+
+Episode 8: 
+The weapons is the Candle Stick because when change Scenario is called the room changes to 'Dining Room', therefore when plotTwist is executed with the argument 'Dining Room' it matches the scenario.room and changes the murdere to 'Colonel Mustard'. When unexpectedOutcome with argument 'Colonel Mustard' is executed as the last function within changeScenario, it matches with the scenario.murdere and changes the weapon to be the 'Candle Stick'.
+
+Episode 9: verdict is going to be Professor Plum because the conditional statement changes the murderer only within that statement due to the variable being a 'let'. Therefore as soon as the conditional statement is finished, the variable 'murderer' changes back to the original value of Professor Plum
