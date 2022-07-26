@@ -30,7 +30,7 @@ Episode 6:
 Verdict is going to be Mrs. White becuase "murderer" is a global variable and when changeMurdere function is called then plotTwist,being the last part of the function, will execute and change the murderer to Mrs. White
 
 Episode 7:
-Verdict is going to be Mr. Green because the plotTwist 
+Verdict is going to be Mr. Green because the variable inside plotTwist is a 'let' variable and so will only exist within that scope. So when changeMurderer function is called, then the change happening will only exist within a limited scope and revert back to Mr. Green.
 
 Episode 8: 
 The weapons is the Candle Stick because when change Scenario is called the room changes to 'Dining Room', therefore when plotTwist is executed with the argument 'Dining Room' it matches the scenario.room and changes the murdere to 'Colonel Mustard'. When unexpectedOutcome with argument 'Colonel Mustard' is executed as the last function within changeScenario, it matches with the scenario.murdere and changes the weapon to be the 'Candle Stick'.
